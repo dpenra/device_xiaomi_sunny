@@ -545,3 +545,6 @@ PRODUCT_PACKAGES += \
 # Wlan
 PRODUCT_CFI_INCLUDE_PATHS += \
     hardware/qcom-caf/wlan/qcwcn/wpa_supplicant_8_lib
+
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
