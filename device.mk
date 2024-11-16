@@ -548,3 +548,6 @@ PRODUCT_CFI_INCLUDE_PATHS += \
 
 # BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
+
+# Viper4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
