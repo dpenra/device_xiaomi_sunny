@@ -557,3 +557,6 @@ $(call inherit-product-if-exists, vendor/xiaomi/mojito-leicacamera/mojito-leicac
 
 # Miui-apps
 $(call inherit-product, vendor/xiaomi/miuiapps/config.mk)
+
+# dynamicSpot
+$(call inherit-product, vendor/xiaomi/dynamicSpot/config.mk)
